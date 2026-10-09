@@ -1,0 +1,26 @@
+{
+    "next_id": 7,
+    "tasks": [
+        {
+            "task_id": 1,
+            "operation": "copy",
+            "source": "test_file.txt",
+            "destination": "copy_of_test.txt",
+            "schedule_time": "daily:16:53"
+        },
+        {
+            "task_id": 2,
+            "operation": "copy",
+            "source": "copy_of_test.txt",
+            "destination": "cropy_of_test.txt",
+            "schedule_time": "daily:16:58"
+        },
+        {
+            "task_id": 6,
+            "operation": "archive",
+            "source": "task.txt",
+            "destination": "backup.zip",
+            "schedule_time": "daily:17:44"
+        }
+    ]
+}
